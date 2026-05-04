@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #f8fbff; color: #0f172a; }
+* { box-sizing: border-box; }
+a { text-decoration: none; }
+.container-page { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 640px) { .container-page { width: min(100% - 20px, 1180px); } }
